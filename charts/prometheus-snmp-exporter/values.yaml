@@ -149,7 +149,7 @@ serviceMonitor:
     #   relabelings: []                 # MetricRelabelConfigs to apply to samples before ingestion. Overrides value set in `serviceMonitor.relabelings`
     #   additionalMetricsRelabels: {}   # Map of metric labels and values to add
 
-config:
+config: |
   # WARNING: This file was auto-generated using snmp_exporter generator, manual changes will be lost.
   cisco_wlc:
     walk:
